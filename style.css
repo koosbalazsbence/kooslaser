@@ -95,3 +95,9 @@ img{
 .pic{
     align-items: center !important;
 }
+
+video{
+    width: 20rem;
+    height: 20rem;
+    /* border-radius: 100%; */
+}
