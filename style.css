@@ -1,13 +1,15 @@
 body {
     display: flex;
     justify-content: center;
+    overflow: hidden;
     align-items: center;
     height: 100vh;
-    background: url('assets/laserMainBackground.jpg') center/cover;
+    background: url('assets/laserMainBackground.jpg') center/cover no-repeat;
     user-select: none;
 }
 .container {
     text-align: center;
+    max-width: 100%;
 }
 .navbar {
     display: flex;
@@ -28,6 +30,25 @@ body {
     margin-right: auto;
     display: block;
     background-color: hsl(0, 0%, 80%);
+}
+@media (orientation: landscape) {
+    .navbar-collapse {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .navbar-toggler {
+        display: none !important;
+    }
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem 0;
+        font-size: 1.6rem;
+    }
 }
 h1{
     font-size: 10rem;
