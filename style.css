@@ -42,6 +42,9 @@ body {
     .navbar-nav {
         flex-direction: row !important;
     }
+    h1{
+        font-size: 5rem !important;
+    }
     .navbar {
         display: flex;
         justify-content: center;
