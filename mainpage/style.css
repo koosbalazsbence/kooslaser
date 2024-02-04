@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+
+.breadcrumb{
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+.back{
+    text-decoration: none;
+    color: hsl(0, 70%, 44%) !important;
+}
+.main{
+    color: rgb(0, 0, 0) !important;
+}
+.nav-item{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    color: hsl(0, 0%, 0%);
+}
+.nav-link:hover{
+    color: hsl(0, 70%, 44%);
+}
+@media (max-width: 775px){
+    .breadcrumb{
+        font-size: 1rem;
+    }
+    .nav-item{
+        font-size: 1.3rem;
+    }
+}
+h1,h2,h3{
+    text-align: center;
+}
