@@ -1,0 +1,22 @@
+<footer class="text-body-secondary py-5">
+  <div class="container">
+    <!-- <p class="float-end mb-1">
+      <a href="#">Vissza a tetejére</a>
+    </p> -->
+    <p class="text-center mb-1">A weboldal Koós Péter tulajdona. A saját készítésű videók, képek felhasználása engedélyköteles.</p>
+    <p class="text-center mb-0">&copy; 2024 KoosLaser</p>
+  </div>
+</footer>
+
+<a class="nav-link active" aria-current="page" href="../mainpage/main.html">Bemutatkozás</a>
+<a class="nav-link" href="../lasershow/laser.html">Lézershow</a>
+<a class="nav-link" href="../hangositas/hangositas.html">Hangosítás</a>
+<a class="nav-link" href="../contact/contact.html">Elérhetőségek</a>
+
+<h1>Elérhetőségek</h1>
+<li class="breadcrumb-item"><a href="../index.html">Főoldal</a></li>
+<li class="breadcrumb-item active main" aria-current="page">Bemutatkozás</li>
+
+<p>Telefonszám: <a href="tel:+36-20-313-6461" target="_blank">+36 20 313 6461</a></p>
+<p>E-mail cím: <a href="mailto:kooslaser@gmail.com" target="_blank">kooslaser@gmail.com</a></p>
+<p>Facebook: <a href="https://www.facebook.com/profile.php?id=100092573018674" target="_blank">Koós Péter</a></p>
